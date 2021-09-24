@@ -1,0 +1,12 @@
+@import url('../../node_modules/bootstrap/dist/css/bootstrap.min.css');
+@import url('./libs/toastr.min.css');
+@import url('./libs/animate.min.css');
+
+/* Custom CSS Dependencies */
+@import url('./common.css');
+@import url('../components/header/header.css');
+@import url('../components/sidebar/sidebar.css');
+@import url('../components/delete-popup/delete-popup.css');
+@import url('../containers/signin/signin.css');
+@import url('../containers/home/home.css');
+@import url('../containers/media/media.css');

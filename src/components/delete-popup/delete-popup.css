@@ -1,0 +1,111 @@
+.continue-content {
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.continue-content h2 {
+  color: #02314b;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.send-button {
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.send-button .green-btn {
+  width: 40%;
+}
+
+.cancel {
+  color: #02314b !important;
+  background-color: #ffffff !important;
+}
+
+.send-button .green-btn:active {
+  color: #02314b !important;
+  background-color: #ffffff !important;
+}
+
+.continue-content {
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+.continue-close img {
+  width: 12px;
+}
+
+.continue-content h2 {
+  color: #02314b;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.send-button {
+  padding: 30px 0px 0px;
+  text-align: end;
+}
+
+.send-button .green-btn {
+  width: 25%;
+  padding: 5px;
+}
+
+.cancel {
+  color: #02314b !important;
+  background-color: #ffffff !important;
+}
+
+.delete-section {
+  /* height: 180px; */
+  overflow: auto;
+}
+
+.content-delete .custom-input {
+  width: 77%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.content-delete .green-btn {
+  width: 20%;
+  padding: 5px;
+}
+
+.continue-close {
+  cursor: pointer;
+  position: absolute;
+  right: -14px;
+  top: -15px;
+  z-index: 99;
+  background-color: #000;
+  border-radius: 100%;
+  padding: 2px 8px;
+}
+
+.send-button .green-btn:active {
+  color: #02314b !important;
+  background-color: #ffffff !important;
+}
+
+.continue-popup .modal-body {
+  padding: 0rem;
+}
+
+.modal-dialog {
+  max-width: 400px;
+  margin: 0px auto !important;
+  -webkit-transform: translateY(-50%) !important;
+  -ms-transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important;
+  top: 50% !important;
+}
+
+.continue .custom-input {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}

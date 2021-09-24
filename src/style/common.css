@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0px;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+.btn-primary {
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn.focus,
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.nav-link {
+  padding: 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0px !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.custom-input label {
+  color: #5a7184;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.custom-input label span {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.custom-input {
+  margin-bottom: 30px;
+}
+
+.custom-input input {
+  padding: 10px 15px;
+  height: 50px;
+  color: #959ead;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.custom-input select {
+  padding: 10px 15px;
+  height: 50px;
+  color: #959ead;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.custom-input textarea {
+  padding: 15px;
+  color: #959ead;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+}
+
+.custom-input .form-control:focus {
+  border: 1px solid #1eba68;
+  box-shadow: none !important;
+}
+
+.green-btn {
+  color: #fff;
+  border-radius: 4px;
+  background-color: #07a552;
+  padding: 15px 0px;
+  width: 100%;
+  font-weight: 600;
+}
+
+.green-btn.red {
+  background-color: red;
+}
+
+.green-btn.red:hover {
+  background-color: red;
+}
+
+.green-btn.red:focus {
+  background-color: red;
+}
+
+.green-btn.red:active {
+  background-color: red;
+}
+
+.green-btn:hover {
+  background-color: #07a552;
+  color: #fff;
+}
+
+.green-btn:active {
+  background-color: #07a552 !important;
+  color: #fff !important;
+}
+
+.green-btn:focus {
+  background-color: #07a552;
+  color: #fff;
+}
+
+.white-btn {
+  color: #000;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 15px 0px;
+  width: 100%;
+  font-weight: 600;
+}
+
+.white-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.white-btn:active {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.white-btn:focus {
+  background-color: #fff;
+  color: #000;
+}
+
+textarea {
+  resize: none;
+}
+
+.custom-input .form-file:focus {
+  outline: none !important;
+}
+
+.custom-input input[type='file'i]:focus {
+  outline: none !important;
+}
+
+.form-button-section {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.form-button-section .green-btn {
+  width: 20%;
+}
+
+.form-button-section .white-btn {
+  width: 20%;
+}
+
+.news-view .form-button-section {
+  margin-top: 20px;
+}
+
+.add-news {
+  padding: 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 40px;
+  padding-bottom: 0px;
+  position: relative;
+  background-color: #fbfbfb;
+}
+
+.add-news h2 {
+  position: absolute;
+  right: -15px;
+  top: -20px;
+  cursor: pointer;
+}
+
+.add-news h2 img {
+  width: 30px;
+}
+
+.add-news:nth-child(4) h2 {
+  display: none;
+}
+
+.signin-card-head {
+  padding-bottom: 20px;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+}
+
+.signin-card-head h2 {
+  position: absolute;
+  top: -60px;
+  right: -6%;
+}
+
+.signin-card-head h2 img {
+  width: 35px;
+}
+
+.signin-card-head h4 {
+  color: #02314b;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+}
+
+.signin-card-head p {
+  color: #02314b;
+  font-size: 14px;
+  letter-spacing: 0.28px;
+  line-height: 22px;
+  padding-top: 15px;
+}
+
+.signin-card-head h4 span {
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  font-size: 14px;
+  padding: 5px 20px;
+  width: auto;
+  margin-top: -5px;
+}
+
+.signin-card-head h4 span img {
+  width: 20px;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid,
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  background-image: none !important;
+}
+
+.loading-button img {
+  margin-right: 10px;
+}
+
+.page-loader {
+  text-align: center;
+}
+
+.loader {
+  height: 87.8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-container {
+  height: 400px;
+  width: 400px;
+}
+
+.loader-container img {
+  width: 100%;
+  margin-top: -30px;
+}
+
+.required-file input,
+.invalid-email {
+  border-color: #dc3545 !important;
+}
+
+.required-file-feedback,
+.required-input-feedback {
+  width: 100% !important;
+  margin-top: .25rem !important;
+  font-size: 80% !important;
+  color: #dc3545 !important;
+}
+
+.pagination-container {
+  position: fixed;
+  bottom: 20px;
+  right: 60px;
+  background: #fff;
+  box-shadow: 0 1px 3px 0 #EEF4FF;
+  margin: 0 30px;
+}
+
+.page-link-disable .page-link {
+  color: #ddd !important;
+}
+
+.page-link-disable .page-link:hover {
+  background-color: transparent !important;
+  cursor: default !important;
+}
+
+.network-table-pagination .partner-news-list {
+  margin-bottom: 20px;
+  max-height: 300px;
+  overflow: auto;
+  border: 1px solid #dee2e6;
+}
+
+.network-table-pagination .news-list-header {
+  margin: 20px 0;
+}
+
+.scrollbox-content,
+.scrollbox:hover,
+.scrollbox:focus {
+  visibility: visible;
+}
+
+.network-table-pagination .partner-news-list .table {
+  margin-bottom: 0px;
+}
+
+.pagination-table {
+  float: right;
+}
+
+.pagination .page-link {
+  color: #07a552;
+  padding: .8rem 1.05rem;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #07a552;
+  border-color: #07a552;
+}
+
+.pagination .page-link:focus {
+  box-shadow: none;
+}
+
+.back-arrow {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-arrow img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.table td,
+.table th {
+  vertical-align: baseline;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: transparent;
+}
+
+.css-g1d714-ValueContainer:focus,
+.css-2b097c-container:focus,
+.css-yk16xz-control:focus,
+.css-1pahdxg-control,
+.css-1pahdxg-control:hover {
+  border: 1px solid #1eba68 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.css-1pahdxg-control:hover {
+  border-color: #1eba68 !important;
+}
+
+.required-char {
+  color: red;
+  font-size: 16px !important;
+  margin-left: 4px !important;
+}

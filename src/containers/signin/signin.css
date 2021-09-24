@@ -1,0 +1,16 @@
+.signin-container {
+  background-color: #f7f7fc;
+  margin-top: 70px;
+  height: calc(100vh - 70px);
+}
+
+.signin-card {
+  padding: 60px;
+  width: 550px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

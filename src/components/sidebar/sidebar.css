@@ -1,0 +1,73 @@
+.sidebar {
+  width: 17%;
+  height: 92vh;
+  padding: 30px 0px;
+  background-color: #263760;
+  position: fixed;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.copyright {
+  text-align: center;
+  color: #fff;
+}
+
+.copyright span {
+  font-size: 14px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sidebar ul li {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sidebar ul li .head label {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sidebar ul li .head-list {
+  margin-top: 10px;
+}
+
+.sidebar ul li .head-list a {
+  font-size: 18px;
+  display: block;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+.sidebar ul li .head-list a.active {
+  background-color: #fff;
+  color: #263760;
+}
+
+.sidebar .head {
+  padding: 0px 30px;
+}
+
+.sidebar ul li .head-list a:hover {
+  background-color: #fff;
+  color: #263760;
+}
+
+.sidebar ul li .head span {
+  float: right;
+}
+
+.sidebar ul li .head span img {
+  width: 15px;
+}
